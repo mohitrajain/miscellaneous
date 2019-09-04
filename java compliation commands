@@ -1,0 +1,3 @@
+javac -cp $(for i in *.jar ; do echo -n $i: ; done). DGO.java
+
+java -cp $(for i in *.jar ; do echo -n $i: ; done). DGO
